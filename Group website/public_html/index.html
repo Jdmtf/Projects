@@ -9,7 +9,7 @@ and open the template in the editor.
         <title> Tescos </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6OXWD0rWNdJckAokTOY6kwzFGydwc0UJkZscn9iD38jDYOTGbEcZEnT-7RX-oy0YgyGq5l-I3yFmma2kDtpbWO9lN0xD2Kc5nlzu4BIqL-iGBVdXcXeGreOS4rrb6f_M4F-8U8Q5wBbrlW25tmsmtLKa2j6MMzQkNinTXfuKDjqvCqqYI6zyc0eBHv5RKSWwCEeKJmYtLuchK-mfkTlIHhMATBvAfZPhwR8itaMAYTI" charset="UTF-8"></script><style>
             p {font-family: arial; text-align: 
                    center;}
             a {font-family: arial; text-align: 
@@ -18,6 +18,11 @@ and open the template in the editor.
          border: 1px solid black;
          display: inline-block;
                         }
+            #table-scroll {
+              height:50px;
+              overflow:auto;  
+              margin-top:20px;
+            }
         </style>
         </head>
 
@@ -40,16 +45,35 @@ and open the template in the editor.
             </center>
         <!-- why the fuck is this not aligned -->
         <center>
-            <br> <table align="center">
-            <tr>
+            <br> 
+            <table align="center">
+               
+                <tr>
                 <td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp products &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td>
             </tr>
         </table >
-        <table align="right">
-            <tr>
+        <div id="table-scroll" align="right">
+        <table>
+             
+           <thead> 
+               <tr align="center">
                 <td> &nbsp &nbsp &nbsp <a href="Basket.html">basket</a> &nbsp &nbsp &nbsp </td>
             </tr>
+           </thead>
+           <tbody>
+            <tr align="center">
+                <td> &nbsp &nbsp &nbsp <a href="Basket.html">basket</a> &nbsp &nbsp &nbsp </td>
+            </tr>
+            <tr align="center">
+                <td> &nbsp &nbsp &nbsp <a href="Basket.html">basket</a> &nbsp &nbsp &nbsp </td>
+            </tr>
+            <tr align="center">
+                <td> &nbsp &nbsp &nbsp <a href="Basket.html">basket</a> &nbsp &nbsp &nbsp </td>
+            </tr>
+           </tbody>
         </table>
+                        </div>
+
         </center>
     </body>
 </html>
