@@ -1,0 +1,421 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+.img-banner {
+	display: none;
+}
+
+.img-info {
+	
+	padding: 60px 340px 240px;
+}
+
+
+.index-title {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.index-title h2 {
+	font-family: arial;
+	font-size: 50px;
+	color: rgb(48, 45, 45);
+	line-height: 44px;
+}
+
+.img-info p {
+	font-family: arial;
+	font-size: 23px;
+	color: #111;
+	line-height: 40px;
+}
+
+.img-me {
+	width: 100%
+	
+}
+
+.column {
+	padding-top: 30px;
+	float: left;
+	width: 33.33%;
+	
+	
+	
+}
+
+.img-info .row::after {
+	background-color: transparent;
+}
+
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	
+}
+	
+@media only screen and (min-width: 768px) {
+	.img-banner {
+		display: block;
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.wrapper {
+		
+		margin: 0 auto;
+	}
+
+	.img-info h2 {
+	padding: 20px 0px 0px;
+	}
+
+	.img-info p {
+	padding: 20px 0px 0px;
+	}
+
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	
+	background-color: rgb(243, 243, 243);
+
+}
+
+ul {
+	list-style-type: none;
+	position: fixed;
+	width: 100%;
+	margin: 0 0 0 50px;
+	font-family: arial;
+	padding: 0;
+	overflow: auto;
+	background-color: rgb(243, 243, 243);
+
+
+  }
+
+
+  
+  li {
+		float: left;
+
+	
+  }
+  
+  li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 16px 20px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: rgb(230, 230, 230);
+  }
+  
+  .active {
+	background-color: #4CAF50;
+	color: lightpink;
+  }
+
+.login-container {
+	float: right;
+	padding-right: 60px;
+  }
+  
+input[type=text] {
+	padding: 6px 15px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	width:120px;
+  }
+input[type=password] {
+	padding: 6px 15px;
+	margin-top: 8px;
+	
+	font-size: 17px;
+	border: none;
+	width:120px;
+  }
+
+.login-container button  {
+	border-radius: 5px;
+	padding: 6px 10px ;
+	margin-top: 8px;
+	margin-right: 10px;
+	background-color: #555;
+	color: white;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+.login-container button:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.login-form {
+	flex-direction: column;
+	width: 300px;
+	border: 15px solid rgb(233, 233, 233);
+	padding: 50px 100px ;
+	background-color: lightgray;
+	max-width: 600px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	
+
+}
+
+
+	
+
+.login-form h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	
+}
+
+.login-form button {
+	border-radius: 5px;
+	padding: 6px 10px ;
+	margin-top: 8px;
+	margin-right: 10px;
+	background-color: #555;
+	color: white;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	
+}
+
+.form button {
+	border-radius: 5px;
+	padding: 6px 10px ;
+	margin-top: 8px;
+	margin-right: 10px;
+	background-color: #555;
+	color: white;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+.form button:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.signupbutton {
+	border-radius: 5px;
+	padding: 6px 10px ;
+	margin-top: 8px;
+	margin-right: 10px;
+	background-color: #555;
+	color: white;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+
+
+
+.login-form .signuperror {
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+
+.profile {
+
+	border-color: thistle;
+}
+
+.profile h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	float: left;
+
+	
+
+}
+
+.profile p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	float: left;
+	padding: 100px;
+
+}
+.form label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+
+
+table th {
+	padding-right: 30px;
+}
+.table-scroll {
+ height:600px;
+ overflow:auto;  
+ margin-top:20px;
+}
+
+
+.banner h1 {
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 40px;
+	
+
+}
+
+.form {
+	padding-top: 40px;
+	overflow: hidden;
+	
+}
+
+.search-bar {
+	padding-top: 20px;
+	
+}
+
+.search-bar .search {
+	height: 24px;
+}
+
+
+.duration {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.form select {
+	padding-right: 30px;
+	overflow: hidden;
+}
+
+.table-scroll {
+	border-radius: 2px;
+	border-color: black;
+}
+
+.basket th {
+	border: 1px solid black;
+	max-width: 400px;
+
+}
+
+
+.form .search {
+	height: 24px;
+}
+
+.table-headers {
+	border: 6px #111;
+}
+
+.table-scroll {
+	height:600px;
+    overflow:auto;  
+    margin-top:20px;
+}
+
+.product-page-table h1 {
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-page-table {
+	flex-direction: column;
+	width: 300px;
+	border: 15px solid rgb(233, 233, 233);
+	padding: 50px 100px ;
+	background-color: rgb(252, 252, 252);
+	max-width: 600px;
+	margin: 0 auto;
+	position: relative;
+	top: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+.product-page-table tr td {
+	padding-top: 12px;
+	padding-right: 9px;
+	
+}
+
+.products-page {
+	padding-top: 40px;
+}
+
+.login-status {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 20px;
+
+}
+
+.loggedin-status {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.user-status {
+	padding-bottom: 20px;
+	border: #4CAF50 2px;
+}
+
+.products-list th {
+	
+	padding-right: 100px;
+}
+
+.products-list td {
+	padding-right: 90px;
+	width: 30px;
+}
+
+
+
+
+.name {
+	width: 40px;
+}
+
+.stocks {
+	padding-top: 200px;
+}
+
+.stocks tr {
+	width: 100px;
+}
+
+.stocks td {
+	width: 100px;
+}
